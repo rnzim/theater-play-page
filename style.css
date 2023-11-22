@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Caveat:wght@500&family=Lato:ital@1&family=Lora:ital@0;1&family=Montserrat&family=Noto+Serif&family=Oswald&family=Roboto&family=Roboto+Condensed&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+header{
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+}
+h1{
+    padding: 20px;
+    font-family: 'Caveat', cursive;
+}
+h2{
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    text-align: left;
+    border-left: 5px orange solid;
+    font-size: 25px;
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: white;
+    text-align: left;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Noto Serif', serif;
+    background-color: rgba(0, 0, 0, 0.838);
+    box-shadow: -2px 2px 25px -1px rgba(0, 0, 0, 0.947);
+    line-height: 30px;
+  
+}
+.actor{
+    font-weight: bolder;
+    font-size: 20px;
+}
+main{
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    border: 2px rgba(128, 128, 128, 0.284) solid;
+}
+img{
+    width: 400px;
+}
+.wall{
+    padding: 10px;
+    background-color: aqua;
+    background-image: url('https://img.freepik.com/fotos-premium/justica-de-ouro-martelo-e-tribunal_751632-18.jpg');
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 250px;
+}
+.wall2{
+    background-image: url('https://f.i.uol.com.br/fotografia/2023/09/14/169470133265031714ab3ff_1694701332_3x2_rt.jpg');
+    padding: 10px;
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 250px;
+}
